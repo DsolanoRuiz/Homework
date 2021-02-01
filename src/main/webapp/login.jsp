@@ -10,8 +10,7 @@
     <body>
         <div class="container">
             <%@include file="WEB-INF/view/header.jspf" %>
-            <%@include file="WEB-INF/view/navegation.jspf" %>
-
+          
             <div class="row">
                 <div class="col">
                     <h1>Enter your access data</h1>

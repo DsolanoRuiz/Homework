@@ -11,7 +11,6 @@
     </head>
     <body>
         </><%@include file="WEB-INF/view/header.jspf" %>
-        </><%@include file="WEB-INF/view/navegation.jspf" %>
         <h1>User List </h1>
 
         <%Collection<User>users=DB.getUser();

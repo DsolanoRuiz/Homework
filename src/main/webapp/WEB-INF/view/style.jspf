@@ -6,33 +6,36 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%> 
+ 
 <style>
     html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif; text-shadow: 2px 2px 4px #000000;
         text-align: center;}
     .mySlides {display:none}
     .w3-tag, .fa {cursor:pointer}
-    .w3-tag {height:9px;width:9px;padding:0;margin-top:3px}
+    .w3-tag {height:10px;width:10px;padding:0;margin-top:6px}
     
 </style>
 <body>
 
-    Links (sit on top) 
-    <div class="w3-top">
+
+    <div class="w3-top" "nav-item">
         <div class="w3-row w3-large w3-light-grey">
             <div class="w3-col s3">
-                <a href="#" class="w3-button w3-block">Home</a>
+                <a class="nav-link active" href="index.jsp">Home</a>
             </div>
-            <div class="w3-col s3">
-                <a href="#homework-list" class="w3-button w3-block">Homework List</a>
+            
+            <div class="w3-col s3" "nav-item">
+                <a class="nav-link active" href="homework-list.jsp" class="w3-button w3-block">Homework List</a>
             </div>
-              <div class="w3-col s3">
-                <a href="#user-list" class="w3-button w3-block">User List</a>
+              <div class="w3-col s3" "nav-item">
+                 <a class="nav-link active" href="user-list.jsp" class="w3-button w3-block">User List </a>
             </div>
-            <div class="w3-col s3">
-                <a href="#form-regist-homework" class="w3-button w3-block">Homework Registration </a>
+            <div class="w3-col s3" "nav-item">
+                <a class="nav-link active" href="form-regist-homework.jsp" class="w3-button w3-block">Homework Registration </a>
             </div>
-            <div class="w3-col s3">
-                <a href="#form-regist-user" class="w3-button w3-block">User Registration</a>
+            <div class="w3-col s3" "nav-item">
+                <a class="nav-link active" href="form-regist-user.jsp" class="w3-button w3-block">User Registration</a>
             </div>
             <div class="w3-col s3">
                 <a href="#contact" class="w3-button w3-block">Contact</a>
@@ -48,19 +51,19 @@
         
         <div class="w3-container">
             <div class="w3-display-container mySlides">
-                <img src="WEB-INF/imgs/imgs/Homework Imagen 1.jpg" alt="" style="width:30%">
+                <img src="WEB-INF/imgs/imgs/Homework Imagen 1.jpg" alt="" style="width:100%">
                  <div class="w3-display-topleft w3-container w3-padding-32">
                     <span class="w3-white w3-padding-large w3-animate-bottom"></span>
                 </div>
             </div>
             <div class="w3-display-container mySlides">
-                <img src="WEB-INF/imgs/Tareas 1.jpg" alt="" style="width:30%">
+                <img src="WEB-INF/imgs/Tareas 1.jpg" alt="" style="width:100%">
                 <div class="w3-display-middle w3-container w3-padding-32">
                     <span class="w3-white w3-padding-large w3-animate-bottom"></span>
                 </div>
             </div>
             <div class="w3-display-container mySlides">
-                <img src="WEB-INF/imgs/Tareas 2.jpg" alt="" style="width:30%">
+                <img src="WEB-INF/imgs/Tareas 2.jpg" alt="" style="width:100%">
                 <div class="w3-display-topright w3-container w3-padding-32">
                     <span class="w3-white w3-padding-large w3-animate-bottom"></span>
                 </div>
